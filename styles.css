@@ -147,7 +147,7 @@ hr{
 	background-position: center;/*posicion imagen*/
 	transition: all .1s ease-in-out;
 	background-image: url(img/slide.jpg);
-	animation: banner 28s infinite linear;/* agregando animacion var durar 28/4 inifinita, linear =simpre la misma velocidad*/  
+	animation: banner 15s infinite linear;/* agregando animacion var durar 28/4 inifinita, linear =simpre la misma velocidad*/  
 }
 .banner-content{
 	margin: 0;
@@ -183,24 +183,24 @@ hr{
 /*Animacion banner*/
 @keyframes banner{
 	0%{
-		background-image: url(img/slide.jpg);
-	}25%{
-		background-image: url(img/slide.jpg);
+		background-image: url(img/La_ciudad_de_Xela_de_noche.jpg);
+	}40%{
+		background-image: url(img/La_ciudad_de_Xela_de_noche.jpg);
 	}
-	26%{
-		background-image: url(img/ropa.jpg);
-	}50%{
-		background-image: url(img/ropa.jpg);
+	41%{
+		background-image: url(img/ficaCafe.jpg);
+	}70%{
+		background-image: url(img/ficaCafe.jpg);
 	}
-	51%{
-		background-image: url(img/slider-img1.jpg);
-	}75%{
-		background-image: url(img/slider-img1.jpg);
-	}
-	76%{
-		background-image: url(img/slider-img2.jpg);
+	71%{
+		background-image: url(img/Xelapan1-885x500.jpg);
 	}100%{
-		background-image: url(img/slider-img2.jpg);
+		background-image: url(img/Xelapan1-885x500.jpg);
 	}
 }
 /***============FIN BANNER======== **/
+
+#img-portada{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
